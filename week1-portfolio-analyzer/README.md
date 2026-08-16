@@ -328,9 +328,9 @@ Key packages:
 - **pandas** (3.0.5) — Data manipulation
 - **yfinance** (0.2.43) — Live stock prices
 - **plotly** (5.24.1) — Interactive charts
-- **pytest** (9.1.1) — Testing framework
+- **pytest** — Testing framework (install separately: `pip install pytest pytest-cov`)
 
-Full list in [requirements.txt](requirements.txt)
+See [requirements.txt](requirements.txt) for complete dependency list with pinned versions.
 
 ## Performance Notes
 
@@ -410,26 +410,6 @@ sequenceDiagram
     end
 ```
 
-## Architecture
-
-### src/data_loader.py
-- CSV file loading and validation
-- Data type conversion
-- Whitespace cleaning
-- Comprehensive error handling
-
-### src/analysis.py
-- Transaction enrichment (buy/sell classification)
-- Unrealized gain calculations
-- Realized gain calculations
-- Portfolio allocation calculations
-- Summary statistics
-
-### app.py
-- Streamlit UI with three tabs
-- Session state management
-- User input handling
-- Data visualization
 
 ## Future Enhancements
 
@@ -444,7 +424,9 @@ Potential improvements:
 
 ## License
 
-This project is part of the Gen Academy Agentic AI course.
+MIT License — See LICENSE file for details. Feel free to use, modify, and distribute this code for personal or commercial projects.
+
+This project was developed as part of the Gen Academy Agentic AI course.
 
 ## Support
 
@@ -453,7 +435,3 @@ For issues or questions:
 2. Review test cases in `tests/` for usage examples
 3. Check Streamlit documentation: https://docs.streamlit.io
 
----
-
-**Last Updated:** August 2026
-**Version:** 1.0
