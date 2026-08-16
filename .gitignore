@@ -1,0 +1,66 @@
+# ===================================================================
+# Root .gitignore — applies to this repo and ALL weekXX subfolders.
+# Only add a second .gitignore inside a week folder if that project
+# has an unusual ignore need not covered here.
+# ===================================================================
+
+# ---- Secrets & environment ----
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*credentials*.json
+*service-account*.json
+secrets/
+**/secrets/
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ---- Jupyter / notebooks ----
+.ipynb_checkpoints/
+
+# ---- Node (if any project uses JS/TS tooling) ----
+node_modules/
+dist/
+build/
+
+# ---- Agentic-AI-specific: local caches, vector stores, model artifacts ----
+# These get large fast and are always regeneratable — never commit them.
+**/data/raw/
+**/vector_store/
+**/chroma_db/
+**/faiss_index/
+**/.chroma/
+**/embeddings_cache/
+*.gguf
+*.safetensors
+*.bin
+model_cache/
+.langchain_cache/
+.llm_cache/
+
+# ---- Logs & run artifacts ----
+*.log
+logs/
+runs/
+
+# ---- Local DBs ----
+*.sqlite3
+*.db
+
+# ---- OS / editor junk ----
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
