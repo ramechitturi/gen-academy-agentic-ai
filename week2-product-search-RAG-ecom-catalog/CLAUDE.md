@@ -97,7 +97,7 @@ streamlit run streamlit_app.py
 python main.py evaluate
 
 # Run Jupyter notebooks for experimentation
-jupyter notebook notebooks/01_rag_pipeline_phases.ipynb
+jupyter notebook notebooks/rag_pipeline_phases.ipynb
 
 # Modify configuration and test (all config in config/settings.yaml)
 # Edit config/prompts.yaml to change LLM system prompt
@@ -190,7 +190,7 @@ All settings are in `config/settings.yaml`. Key parameters:
 ## Testing & Validation
 
 **No automated test suite exists.** Validation is done via:
-- Jupyter notebooks (`notebooks/01_rag_pipeline_phases.ipynb`)
+- Jupyter notebooks (`notebooks/rag_pipeline_phases.ipynb`)
 - Streamlit UI manual testing
 - LLM-based evaluation metrics
 

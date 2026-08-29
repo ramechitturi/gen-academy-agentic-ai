@@ -135,7 +135,7 @@ week2-product-search-RAG-ecom-catalog/
 │
 ├── 📓 Notebooks & Analysis
 │   └── notebooks/
-│       ├── 01_rag_pipeline_phases.ipynb   # End-to-end pipeline demonstration
+│       ├── rag_pipeline_phases.ipynb   # End-to-end pipeline demonstration
 │       │                                  # - Runs all 8 phases
 │       │                                  # - Includes debugging checkpoints
 │       │                                  # - Outputs evaluation results
@@ -297,7 +297,7 @@ Large files that are **NOT committed**:
 1. **Edit configuration** → `config/settings.yaml` or `config/prompts.yaml`
 2. **Modify logic** → Edit files in `src/`
 3. **Run pipeline** → `python main.py setup` then `python main.py chatbot`
-4. **Test in notebook** → `notebooks/01_rag_pipeline_phases.ipynb`
+4. **Test in notebook** → `notebooks/rag_pipeline_phases.ipynb`
 5. **Commit changes** → Git commit with description
 6. **Push to GitHub** → `git push origin main`
 

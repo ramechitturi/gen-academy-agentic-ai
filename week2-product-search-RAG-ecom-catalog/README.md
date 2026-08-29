@@ -62,7 +62,7 @@ week2-product-search-RAG-ecom-catalog/
 │       └── chatbot.py              # Streamlit chatbot UI
 │
 ├── notebooks/
-│   ├── 01_rag_pipeline_phases.ipynb    # End-to-end pipeline notebook
+│   ├── rag_pipeline_phases.ipynb    # End-to-end pipeline notebook
 │   └── evaluation_results_llm.json     # Evaluation results
 │
 ├── tests/                      # (Empty - no automated tests yet)

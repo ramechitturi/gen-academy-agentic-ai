@@ -262,7 +262,7 @@ week2-product-search-RAG-ecom-catalog/
 │   └── evaluation/
 │       └── llm_evaluator.py   # Claude-based evaluation
 ├── notebooks/
-│   ├── 01_rag_pipeline_phases.ipynb # Full pipeline
+│   ├── rag_pipeline_phases.ipynb # Full pipeline
 │   └── evaluation_results_llm.json   # Evaluation results
 ├── streamlit_app.py            # Frontend app
 └── README.md
@@ -276,7 +276,7 @@ python -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
 
-# 2. Run notebook phases (01_rag_pipeline_phases.ipynb)
+# 2. Run notebook phases (rag_pipeline_phases.ipynb)
 # - Phase 1: Data Ingestion + Images
 # - Phase 1b: Download Images  
 # - Phase 2: Data Cleaning
