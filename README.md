@@ -9,6 +9,7 @@ Each week's project lives in its own subfolder with a self-contained README, cod
 | Week | Project | Description | Status |
 |------|---------|-------------|--------|
 | 01 | [week1-portfolio-analyzer](./week1-portfolio-analyzer) | Streamlit app for tracking stock holdings, calculating realized/unrealized gains, and visualizing portfolio allocation | Complete |
+| 02 | [week2-product-search-RAG-ecom-catalog](./week2-product-search-RAG-ecom-catalog) | Streamlit app for RAG to query products from the Corpus IKEA-Home-Decor-Furniture-Dataset posted on Hugging Face | Complete |
 
 _(Update this table as each project is added.)_
 
