@@ -1,0 +1,60 @@
+# Project Configuration
+
+# Data Paths
+data:
+  raw_dir: "data/raw"
+  processed_dir: "data/processed"
+  vector_db_dir: "data/vector_db"
+  images_dir: "data/raw/images"
+
+# Hugging Face Dataset
+dataset:
+  repo_id: "crawlfeeds/IKEA-Home-Decor-Furniture-Dataset"
+  split: "train"
+  cache_dir: "data/raw"
+
+# Embedding Configuration
+embedding:
+  model_name: "sentence-transformers/all-MiniLM-L6-v2"
+  dimension: 384
+  batch_size: 32
+  device: "cpu"  # Change to "cuda" if GPU available
+
+# Chunking Strategy
+chunking:
+  chunk_size: 512
+  chunk_overlap: 100
+  separator: "\n\n"
+
+# Retrieval Configuration
+retrieval:
+  top_k: 20
+  dense_weight: 0.7
+  bm25_weight: 0.3
+  use_cross_encoder: false
+  cross_encoder_model: "cross-encoder/ms-marco-MiniLM-L-6-v2"
+
+# Vector Database (ChromaDB)
+vector_db:
+  collection_name: "ikea_products"
+  persistence_mode: "local"
+
+# LLM Configuration
+llm:
+  provider: "anthropic"  # Options: anthropic, openai
+  model: claude-sonnet-5
+  temperature: 0.7  # Only used for OpenAI; Claude models don't support temperature
+  max_tokens: 1024
+  timeout: 30
+
+# Evaluation
+evaluation:
+  test_set_size: 50
+  mrr_threshold: 0.5
+  faithfulness_threshold: 0.9
+  answer_relevance_threshold: 0.75
+
+# Logging
+logging:
+  level: "INFO"
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"

@@ -1,0 +1,34 @@
+[project]
+name = "week2-product-search-rag-ecom-catalog"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "ramechitturi", email = "rame.chitturi@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "ipykernel>=7.3.0",
+    "numpy>=2.5.2",
+    "pandas>=3.0.5",
+    "python-dotenv>=1.0.0",
+    "pyyaml>=6.0",
+    "datasets>=2.14.0",
+    "tqdm>=4.66.0",
+    "anthropic>=0.7.0",
+    "langchain>=0.1.0",
+    "langchain-core>=0.1.0",
+    "langchain-community>=0.0.1",
+    "langchain-anthropic>=0.0.1",
+    "langchain-text-splitters>=0.0.1",
+    "chromadb>=0.4.0",
+    "sentence-transformers>=2.2.0",
+    "rank-bm25>=0.2.2",
+]
+
+[project.scripts]
+week2-product-search-rag-ecom-catalog = "week2_product_search_rag_ecom_catalog:main"
+
+[build-system]
+requires = ["uv_build>=0.12.5,<0.13.0"]
+build-backend = "uv_build"
