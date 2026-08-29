@@ -99,8 +99,8 @@ week2-product-search-RAG-ecom-catalog/
 ### 1. Install Dependencies
 
 ```bash
-python -m venv venv
-source venv/bin/activate
+python -m venv .venv
+source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
