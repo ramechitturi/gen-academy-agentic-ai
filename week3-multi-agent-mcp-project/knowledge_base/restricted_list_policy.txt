@@ -1,0 +1,8 @@
+Restricted List Policy
+
+Securities on the internal restricted list may not be auto-published without
+manual compliance sign-off. Restricted list membership is typically triggered
+by pending M&A activity, active insider information barriers, or ongoing
+litigation involving the issuer. Any automated output referencing a
+restricted security must be routed to human review regardless of its
+sentiment or price data quality.

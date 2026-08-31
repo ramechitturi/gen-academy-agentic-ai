@@ -1,0 +1,14 @@
+mcp
+langgraph
+langchain-mcp-adapters
+langchain-anthropic
+yfinance
+httpx
+python-dotenv
+scikit-learn
+sentence-transformers
+jupyter
+ipykernel
+fastapi
+uvicorn
+pydantic

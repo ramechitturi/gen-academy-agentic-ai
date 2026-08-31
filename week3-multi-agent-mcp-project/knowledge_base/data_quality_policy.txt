@@ -1,0 +1,7 @@
+Data Quality Policy
+
+Any output where the underlying price or fundamental data contains an error
+field, is missing, or is malformed must not be auto-approved. Incomplete or
+unverified data must be flagged for manual verification before any
+publishing action proceeds, even if the qualitative summary otherwise looks
+favorable.

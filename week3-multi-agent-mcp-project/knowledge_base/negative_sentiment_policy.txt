@@ -1,0 +1,8 @@
+Negative Sentiment Review Policy
+
+When recent news sentiment for a security is bearish, negative, or mixed,
+any analysis output must receive a secondary human review before downstream
+automated action is taken. This threshold exists to prevent automated
+systems from acting on unverified negative developments such as earnings
+misses, regulatory probes, or executive departures. Bullish or neutral
+sentiment does not by itself require review.

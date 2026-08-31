@@ -1,0 +1,6 @@
+Earnings Blackout Policy
+
+During the two weeks preceding a company's scheduled earnings release,
+automated publishing of new analysis is paused and routed to human review.
+This avoids acting on stale or incomplete information immediately before a
+material, market-moving disclosure.
